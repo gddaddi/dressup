@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>캐릭터 옷 입히기 게임</title>
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+        .clothing {
+            width: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <div id="clothing-container">
+        <img src="shirt.png" class="clothing" id="shirt" alt="셔츠">
+        <img src="shirt_02.png" class="clothing" id="shirt_02" alt="셔츠 02">
+        <img src="shirt_03.png" class="clothing" id="shirt_03" alt="셔츠 03">
+        <img src="pants.png" class="clothing" id="pants" alt="바지">
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
